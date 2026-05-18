@@ -17,7 +17,7 @@ function Child({ showModal, setShowModal }) {
 
       {showModal && (
         <div style={{ marginTop: "20px" }}>
-          <h2>Modal Opened</h2>
+          <h2>Modal Content</h2>
           <h3>This is modal content.</h3>
         </div>
       )}
