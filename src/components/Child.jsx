@@ -12,7 +12,7 @@ function Child({ showModal, setShowModal }) {
       <h2>Child Component</h2>
 
       <button onClick={() => setShowModal(true)}>
-        Open Modal
+        Show Modal
       </button>
 
       {showModal && (
